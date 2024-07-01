@@ -445,17 +445,20 @@ input {
 
 /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
-    .loader{
+    .loader {
         width: 50vh;
     }
-    .loader h3{
+
+    .loader h3 {
         font-size: 3vh;
     }
-    #page1{
-        height: 100vh;width: 170%;
+
+    #page1 {
+        height: 100vh;
+        width: 170%;
     }
 
-  
+
     .page1text {
         margin-top: 25vh;
         margin-left: 5vw;
@@ -469,10 +472,12 @@ input {
         font-size: 3vw;
     }
 
-    .nav{
-        display: flex;flex-direction: column;align-items: flex-start;
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
-    
+
     .nav2 {
         display: none;
         width: 40%;
@@ -480,40 +485,57 @@ input {
     }
 
     .page1text {
-       width: 170%;
-       margin-left: 0vh;
-       padding-left: 0vh;
+        width: 170%;
+        margin-left: 0vh;
+        padding-left: 0vh;
         /* Adjust margin as needed */
     }
 
     .page1text h3 {
-        text-align: left;padding-left: 0;
-        font-size: 4vh;margin-left: 0;
+        text-align: left;
+        padding-left: 0;
+        font-size: 4vh;
+        margin-left: 0;
         /* Adjust font size as needed */
     }
 
     .page1text h5 {
-        text-align: left;padding-left: 0;
-        font-size: 2vh;margin-left: 0;
+        text-align: left;
+        padding-left: 0;
+        font-size: 2vh;
+        margin-left: 0;
         /* Adjust font size as needed */
     }
-    #page2{
-        display: flex;flex-direction: column;gap: 20vh;
+
+    #page2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20vh;
         margin-bottom: 10vh;
         height: 210vh;
     }
+
     .page2l {
-        height: 25%;
-        width: 90%;
+        height: 55%;
+        width: 100%;
     }
-    .page2l img{
-        height: 100%;width: 100%;object-fit: cover;
+
+    .page2l img {
+        height: 120%;
+        width: 110%;
+        object-fit: cover;
     }
+
     .page2r {
         width: 90%;
     }
-    #page3{
-        display: flex;flex-direction: column;
+    input{
+        border-radius: 4vh;
+    }
+   
+    #page3 {
+        display: flex;
+        flex-direction: column;
         height: 250vh;
         margin-bottom: 20vh;
     }
@@ -525,6 +547,7 @@ input {
     .card1 {
         width: 90%;
         height: auto;
+        font-size: 2vh;
         /* Allow card height to adjust */
     }
 
@@ -533,10 +556,14 @@ input {
     }
 
     .page3r {
+        padding-top: 0vh;margin: 0vh;
         width: 175%;
     }
-    #page4{
-        display: flex;flex-direction: column;height: 300vh;
+
+    #page4 {
+        display: flex;
+        flex-direction: column;
+        height: 300vh;
         margin-bottom: 10vh;
     }
 
@@ -548,36 +575,54 @@ input {
         width: 90%;
         height: auto;
     }
-    #page5{
-        display: flex;flex-direction: column;margin-bottom: 10vh;
+
+    #page5 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10vh;
         height: 200vh;
     }
+
     .page5l {
         width: 170%;
         margin-bottom: 5vh;
     }
-    .page5l img{
-        width: 50vh;height: 50vh;object-fit: cover;
+
+    .page5l img {
+        width: 50vh;
+        height: 50vh;
+        object-fit: cover;
         border-radius: 0vh;
     }
+
     .page5r {
         width: 110%;
     }
-    .contact{
-        display: flex;flex-direction: column;
+
+    .contact {
+        display: flex;
+        flex-direction: column;
         height: 70vh;
         width: 40vh;
-        text-align: left;gap: 4vh;
+        text-align: left;
+        gap: 4vh;
+        margin-left: 1.5vh;
     }
-    .contact button a{
+    .contact button{
+        margin-left: 1.5vh;
+    }
+    .contact button a {
         font-size: 2.5vh;
         padding: 0vh;
     }
-    .contact button{
+
+    .contact button {
         padding: 1vh;
     }
+
     #page6 {
-        flex-direction: column;height: 100vh;
+        flex-direction: column;
+        height: 100vh;
     }
 
     .p61,
@@ -595,39 +640,3 @@ input {
         height: 20vh;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media Queries */
-
-    /* Mobile Devices (max-width: 768px) */
-    /* @media only screen and (max-width: 768px) {
-    .container {
-        max-width: 100%;
-        padding: 0 10px;
-    }
-    .hero {
-        padding: 50px 0;
-    }
-    .hero h1 {
-        font-size: 36px;
-    }
-    .hero p {
-        font-size: 16px;
-    }
-    .mission-content {
-        flex-direction: column;
-    }
-    .mission-item {
-        margin-bottom: 20px;
-    }
-} */
