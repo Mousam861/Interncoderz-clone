@@ -444,11 +444,18 @@ input {
 
 
 /* Responsive Styles for Mobile */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+    .main{
+        overflow-x:hidden;
+    }
+   
     .loader {
         width: 50vh;
+        overflow-x: hidden;
     }
-
+    .image-container{
+        overflow-x: hidden;
+    }
     .loader h3 {
         font-size: 3vh;
     }
@@ -456,6 +463,7 @@ input {
     #page1 {
         height: 100vh;
         width: 170%;
+        overflow-x: hidden;
     }
 
 
@@ -513,6 +521,7 @@ input {
         gap: 20vh;
         margin-bottom: 10vh;
         height: 210vh;
+        overflow-x: hidden;
     }
 
     .page2l {
@@ -532,12 +541,15 @@ input {
     input{
         border-radius: 4vh;
     }
-   
+    .verify{
+        overflow-x: hidden;
+    }
     #page3 {
         display: flex;
         flex-direction: column;
         height: 250vh;
         margin-bottom: 20vh;
+        overflow-x: hidden;
     }
 
     .card {
@@ -565,6 +577,7 @@ input {
         flex-direction: column;
         height: 300vh;
         margin-bottom: 10vh;
+        overflow-x: hidden;
     }
 
     .services {
@@ -581,6 +594,7 @@ input {
         flex-direction: column;
         margin-bottom: 10vh;
         height: 200vh;
+        overflow-x: hidden;
     }
 
     .page5l {
@@ -607,6 +621,7 @@ input {
         text-align: left;
         gap: 4vh;
         margin-left: 1.5vh;
+        overflow-x: hidden;
     }
     .contact button{
         margin-left: 1.5vh;
@@ -623,6 +638,7 @@ input {
     #page6 {
         flex-direction: column;
         height: 100vh;
+        overflow-x: hidden;
     }
 
     .p61,
