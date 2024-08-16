@@ -33,7 +33,7 @@ function verify() {
   var verifyh4 = document.querySelector("#verify h4")
   const registeredIds = [
     { id: "CERT", name: "John Doe" },
-    { id: "CERT-002", name: "Jane Doe",Domain:"Web Development" },
+    { id: "AH/WD/24/224", name: "Afrith Hussain Z",Domain:"Web Development" },
     { id: "CERT-003", name: "Bob Smith" },
     // add more registered IDs here
   ];
