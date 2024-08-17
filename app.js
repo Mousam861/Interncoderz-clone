@@ -35,6 +35,7 @@ function verify() {
     { id: "CERT", name: "John Doe" },
     { id: "AH/WD/24/224", name: "Afrith Hussain Z",Domain:"Web Development" },
     { id: "CERT-003", name: "Bob Smith" },
+    { id: "AK/WD/24/116", name: "Ashish Kumar",Domain:"Web Development" },
     // add more registered IDs here
   ];
 
